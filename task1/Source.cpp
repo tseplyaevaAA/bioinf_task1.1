@@ -40,7 +40,7 @@ int main(){
 		fclose(file);
 	}
 	else
-	{
+	{	fclose(file);
 		ifstream my_file("input.txt", ios_base::in);
 
 		for (int i = 0; i < 2; i++) {
